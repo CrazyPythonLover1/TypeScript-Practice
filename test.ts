@@ -50,3 +50,13 @@ let myVar1 : number = Color.Blue
 console.log("myVar: " + myVar);
 console.log("myVar1: " + myVar1);
 
+
+let m : any;
+
+const n = "this is string";
+
+const o = 1;
+
+m = 0;
+
+console.log(typeof m)

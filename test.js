@@ -33,4 +33,9 @@ let myVar = Color[Color.Blue];
 let myVar1 = Color.Blue;
 console.log("myVar: " + myVar);
 console.log("myVar1: " + myVar1);
+let m;
+const n = "this is string";
+const o = 1;
+m = 0;
+console.log(typeof m);
 //# sourceMappingURL=test.js.map
