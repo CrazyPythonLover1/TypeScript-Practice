@@ -12,13 +12,13 @@ alert("Hi I am Learning Typescript")
 
 // How to Deal with Function & Array
 
-function print(value : string) {
+function printString(value : string) {
     alert(value);
 }
 
 const myConst = " TypeScript Function ";
 
-print(myConst);
+printString(myConst);
 
 // Pass Array 
 
@@ -31,3 +31,22 @@ function ShowingNumber(value : Array<string>) {
 let myArray = [ "one", "two", "three"]
 
 ShowingNumber(myArray);
+
+// how to Use built id TypeScript type Enums 
+
+// Enums Return a Int Number
+
+enum Color {Red = 1, Green, Blue}
+
+let green : Color = Color.Green;
+
+alert(green);
+
+alert(typeof green);
+
+let myVar : string = Color[Color.Blue]
+let myVar1 : number = Color.Blue
+
+console.log("myVar: " + myVar);
+console.log("myVar1: " + myVar1);
+
